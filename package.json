@@ -1,8 +1,8 @@
 {
-  "name": "dokkebl",
+  "name": "dokkebi",
   "version": "0.1.0",
   "private": true,
-  "description": "Dokkebl (도깨비) - Zero-data ephemeral security messenger",
+  "description": "Dokkebi (도깨비) - Zero-data ephemeral security messenger",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",

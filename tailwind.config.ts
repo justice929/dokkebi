@@ -8,7 +8,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        dokkebl: {
+        dokkebi: {
           void: "#0a0a0f",
           ember: "#ff6b35",
           mist: "#8b9dc3",

@@ -1,5 +1,5 @@
 /**
- * Dokkebl relay server — Zero-data philosophy
+ * Dokkebi relay server — Zero-data philosophy
  *
  * - No database, no file storage, no message history
  * - Socket.io room membership exists only in process memory
@@ -94,7 +94,7 @@ app.prepare().then(() => {
   httpServer.listen(port, hostname, () => {
     if (dev) {
       process.stdout.write(
-        `Dokkebl relay (memory-only) http://${hostname}:${port}\n`
+        `Dokkebi relay (memory-only) http://${hostname}:${port}\n`
       );
     }
   });

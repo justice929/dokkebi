@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dokkebl | 도깨비",
+  title: "Dokkebi | 도깨비",
   description:
     "Zero-data ephemeral messenger — appears and vanishes without a trace.",
 };
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-dokkebl-void text-gray-100`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-dokkebi-void text-gray-100`}
       >
         {children}
       </body>
